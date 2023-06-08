@@ -2,8 +2,6 @@
 
 const hre = require("hardhat");
 
-// Deployed to alchemy contract: 0xE4dF8826450b4127b45e319051f49e566de9e540
-
 async function main() {
   // We get the contract to deploy.
   const BuyMeACoffee = await hre.ethers.getContractFactory("BuyMeACoffee");
